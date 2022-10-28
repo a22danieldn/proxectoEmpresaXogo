@@ -11,7 +11,7 @@ public class EmpresaXogo {
     public static void calcularEntrada() {
         int edad;
         double precio;
-	System.out.println("informacion de proyecto")
+	System.out.println("informacion de proyecto conflicto")
         
         System.out.println("Indica la edad del cliente: ");
         edad = input.nextInt();
@@ -28,6 +28,7 @@ public class EmpresaXogo {
                 }
             }
             System.out.println("Precio de entrada es " + precio);
+	    System.out.println("mensaje despedida")
         }
     }
 }
