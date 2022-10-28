@@ -11,6 +11,7 @@ public class EmpresaXogo {
     public static void calcularEntrada() {
         int edad;
         double precio;
+	System.out.println("informacion de proyecto")
         
         System.out.println("Indica la edad del cliente: ");
         edad = input.nextInt();
